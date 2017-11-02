@@ -523,7 +523,7 @@ int main(int argc, const char * argv[]) {
 		std::cout << "Axe ";
 	std::cout << "\nAttack: " << attack;
 	std::cout << "\nHealth: " << health << "\n\n";
-	std::cin >> userChoice;
+	cin >> userChoice;
 	// When you lost, the program would just end, so I added this std::cin so the user can read their stats then type in something to end it - Max
 	return 0;
 
